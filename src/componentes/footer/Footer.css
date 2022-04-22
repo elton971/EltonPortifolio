@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px  solid rgb(158, 154, 154);
+}
+.footer_content a{
+    padding: 10px;
+    font-size: 30px;
+}
+.footer p{
+    margin-top: 20px;
+}

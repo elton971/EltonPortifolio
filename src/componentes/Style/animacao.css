@@ -1,0 +1,14 @@
+@keyframes slideDown{
+	from{
+		opacity: .5;
+		transform: translateY(-20px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.anima.active{
+    transition: 1s;
+    animation: slideDown  1s forwards;
+}
