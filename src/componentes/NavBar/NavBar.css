@@ -37,7 +37,7 @@
 .nav-links__item a{
     text-decoration: none;
    
-    padding: 10px 10px 10px 30px;
+    padding: 10px 30px 10px 30px;
     margin-left: 20px;
     color: #0E2431;
 }
@@ -46,6 +46,7 @@
     color:white;
     border-radius: 10px;
     transition: all .5s;
+    transform: scale(1.1);
 }
 .nav-links.show{
     transform: translateX(-200px);
