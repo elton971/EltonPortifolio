@@ -82,8 +82,11 @@
        margin-top: 20px;
    }
    .button{
-    display: block;
-}
+       display: block;
+    }
+    .nav-links__item a:hover{
+       background-color: transparent;
+    }
    
 }
     
