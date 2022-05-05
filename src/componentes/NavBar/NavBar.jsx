@@ -22,7 +22,7 @@ export const NavBar = () => {
                 }}>&equiv;</label>
                 <ul className={isOpen ? "nav-links show" : "nav-links"}>
                     <li className="nav-links__item" onClick={()=>{
-                        setIsOpen(false);
+                        setIsOpen(true);
                     }}><a href="#home">Home</a></li>
                     <li className="nav-links__item"><a href="#sobre">Sobre</a></li>
                     <li className="nav-links__item"><a href="#skills">Skills</a></li>
